@@ -1,5 +1,6 @@
 langchain
 langchain-groq
 python-dotenv
+flask
 requests
 feedparser
