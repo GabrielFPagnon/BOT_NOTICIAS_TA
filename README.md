@@ -19,7 +19,7 @@ Este projeto consiste em um **Bot de WhatsApp** desenvolvido em Python, projetad
 
 * **Python**: Linguagem principal para construção da lógica do sistema e integração.
 * **WhatsApp Business Cloud API**: Para a comunicação, recebimento e envio de mensagens pelo aplicativo.
-* **API de LLM (A decidir)**: Motor de inteligência artificial responsável por buscar, interpretar, filtrar e resumir as notícias.
+* **API de LLM OPEN AI via API da Groq**: Motor de inteligência artificial responsável por buscar, interpretar, filtrar e resumir as notícias.
 
 ## Instruções de Instalação, Dependências e Execução do Projeto (Até o momento)
 
@@ -28,7 +28,7 @@ Como o projeto está em sua fase inicial de estruturação, abaixo estão os pas
 ### Pré-requisitos
 * **Python 3.8+** instalado em sua máquina.
 * Conta ativa no **Meta for Developers** (para obter as credenciais do WhatsApp Cloud API).
-* Chave de API de um provedor de LLM (ex: OpenAI, Google Gemini, Anthropic).
+* Chave de API de um provedor de LLM(ex: OpenAI, Google Gemini, Anthropic, API da Groq).
 
 ### Passo a Passo de Instalação
 
