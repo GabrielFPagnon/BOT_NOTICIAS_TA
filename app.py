@@ -20,7 +20,7 @@ def enviar_sms():
         )
         print(f"Mensagem enviada com sucesso! SID: {message.sid}")
     except Exception as e:
-        print(f"Erro ao enviar SMS: {e}")
+        print(f"Erro ao enviar mensagem: {e}")
 
 if __name__ == "__main__":
     enviar_sms()
