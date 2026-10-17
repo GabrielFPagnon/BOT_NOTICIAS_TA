@@ -18,7 +18,7 @@ Este projeto consiste em um **Bot de WhatsApp** desenvolvido em Python, projetad
 ## Tecnologias e Ferramentas Utilizadas
 
 * **Python**: Linguagem principal para construção da lógica do sistema e integração.
-* **WhatsApp Business Cloud API**: Para a comunicação, recebimento e envio de mensagens pelo aplicativo.
+* **Twilio API**: Para a comunicação, recebimento e envio de mensagens pelo aplicativo.
 * **API de LLM OPEN AI via API da Groq**: Motor de inteligência artificial responsável por buscar, interpretar, filtrar e resumir as notícias.
 
 ## Instruções de Instalação, Dependências e Execução do Projeto (Até o momento)
@@ -27,7 +27,7 @@ Como o projeto está em sua fase inicial de estruturação, abaixo estão os pas
 
 ### Pré-requisitos
 * **Python 3.8+** instalado em sua máquina.
-* Conta ativa no **Meta for Developers** (para obter as credenciais do WhatsApp Cloud API).
+* Conta e token da API do Twilio.
 * Chave de API de um provedor de LLM(ex: OpenAI, Google Gemini, Anthropic, API da Groq).
 
 ### Passo a Passo de Instalação
